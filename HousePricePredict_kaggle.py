@@ -105,4 +105,4 @@ RF_pred=RF.predict(test)
 submit['SalePrice']=np.exp(RF_pred)
 submit.to_csv('submission_2.csv',index=False,encoding='utf-8')
 
-#Evaluation score:0.11429  292/4097
+#Evaluation score:0.11429  292/4097  2019/02/25
